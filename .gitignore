@@ -1,0 +1,26 @@
+# Local tools, dependencies, and generated logs
+.codeburn/
+node_modules/
+*.log
+
+# Internal workflow documents are not part of the public UI export.
+.agents/
+.memory/
+AGENTS.md
+CODEBURN-SETUP.md
+examples/
+
+# Local account configuration and credentials
+.aws/
+.codex/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Operating system files
+.DS_Store
+Thumbs.db

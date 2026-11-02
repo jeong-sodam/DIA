@@ -1,0 +1,6 @@
+* text=auto
+*.md text eol=lf
+*.ps1 text eol=crlf
+
+# Keep the captured HTML bytes stable for the original-content checks.
+DIA.HTML -text
